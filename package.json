@@ -1,0 +1,31 @@
+{
+  "name": "findlinks-jhenriquedsm",
+  "version": "1.0.2",
+  "description": "findlinks",
+  "main": "./cli.js",
+  "type": "module",
+  "bin":{
+    "nome-da-lib": "./cli.js"
+  },
+  "preferGlobal":true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/",
+    "cli:valida": "node ./src/cli.js ./arquivos/ --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhenriquedsm/FindLinks_npm.git"
+  },
+  "keywords": ["npm run cli", "npm run cli:valida"],
+  "author": "jhenriquedsm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhenriquedsm",
+    "email": "jhsilvamata@gmail.com"
+  },
+  "homepage": "https://github.com/jhenriquedsm",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  }
+}
